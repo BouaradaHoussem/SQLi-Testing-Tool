@@ -60,16 +60,24 @@ The tool follows these steps:
 1️⃣ Install Dependencies 
 
 Run the following commands:
-        sudo apt update
-        sudo apt install -y subfinder httpx sqlmap
-        go install github.com/projectdiscovery/katana/cmd/katana@latest
-        go install github.com/tomnomnom/waybackurls@latest
+
+     sudo apt update.
+
+     sudo apt install -y subfinder httpx sqlmap.
+
+     go install github.com/projectdiscovery/katana/cmd/katana@latest.
+
+     go install github.com/tomnomnom/waybackurls@latest.
+
 Move installed tools to /usr/local/bin/:
-        mv ~/go/bin/katana /usr/local/bin/
-        mv ~/go/bin/waybackurls /usr/local/bin/
+
+     mv ~/go/bin/katana /usr/local/bin/.
+
+     mv ~/go/bin/waybackurls /usr/local/bin/.
 
 
 🚀 Usage
 
 Run the script:
-        python3 auto_sqli_enum.py
+
+     python3 auto_sqli_enum.py.
